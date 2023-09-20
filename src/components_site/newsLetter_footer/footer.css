@@ -1,0 +1,97 @@
+/* Footer Background */
+footer {
+    background-color: #1f1f1f;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+/* Footer Heading */
+footer h5 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Footer Links */
+ul.list-unstyled {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.list-unstyled li {
+    margin-bottom: 12px;
+}
+
+ul.list-unstyled a {
+    color: #00c5ff;
+    font-size: 16px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+ul.list-unstyled a:hover {
+    color: #ff7700;
+    transform: scale(1.1);
+    /* Add a scaling effect on hover */
+}
+
+/* Footer Newsletter Form */
+.form-control {
+    background-color: #111;
+    border-color: #00c5ff;
+    color: #fff;
+}
+
+.form-control:focus {
+    background-color: #111;
+    border-color: #00c5ff;
+    color: #fff;
+    box-shadow: none;
+}
+
+/* Subscribe Button */
+.btn-primary {
+    background-color: #ff7700;
+    border-color: #ff7700;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s, border-color 0.3s, transform 0.3s;
+    /* Add transitions */
+}
+
+.btn-primary:hover {
+    background-color: #ff5500;
+    border-color: #ff5500;
+    transform: scale(1.05);
+    /* Add a scaling effect on hover */
+}
+
+/* Social Media Icons */
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: #00c5ff;
+    font-size: 24px;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s, transform 0.3s;
+    /* Add transitions */
+}
+
+.social-icons a:hover {
+    color: #ff7700;
+    transform: translateY(-5px);
+    /* Add a vertical shift effect on hover */
+}
+
+/* Additional Custom Styling for a Gaming Look (Optional) */
+/* Add any additional custom styling to enhance the gaming-style appearance */
+
+/* Optional: Add a pixelated background pattern */
+body {
+    /* background-image: url('pixel-bg.png'); */
+    background-repeat: repeat;
+}

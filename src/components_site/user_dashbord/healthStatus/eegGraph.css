@@ -1,0 +1,12 @@
+/* eegGraph.css */
+
+.eeg-graph-container {
+  flex: 1;
+  /* Allow the graph container to grow and fill available space */
+  max-width: calc(33.33% - 16px);
+  /* Adjust the width based on your grid layout */
+  margin: 8px;
+  /* Add some margin between graphs */
+}
+
+/* Add any additional styling as needed for your specific layout */
